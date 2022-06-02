@@ -1,14 +1,15 @@
-#!/bin/bash
-
-// C program to show the use of puts
 #include <stdio.h>
-int main()
-{
-	puts("Geeksfor");
-	puts("Geeks");
+#include <string.h>
 
-	getchar("Programming is like building a multilingual puzzle);
-	return 0;
+int main() {
+ 
+  // initializing strings
+  char str1[] = "Hello World";
+  char str2[] = "Using puts in C";
+
+  // writing to stdout
+  puts(str1);
+  puts(str2);
+
+  return 0;
 }
-
-
